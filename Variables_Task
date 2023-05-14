@@ -1,6 +1,86 @@
-#write a program to find the area of a circle, take the input from the user for the radius
+1). Write a program to find the area of a circle, take the input from the user for the radius
 radius = int(input("Enter the radius of circle: "))
 area_of_circle = 3.14*(radius**2)
 print("The area of circle is", area_of_circle)
 
+
+2). Imagine you are working at a college, create a form where you ask about different details from the user in order to create their id card
+print("Welcome to College ID Card Generator")
+
+# Collecting user input
+first_name = input("Enter your First Name: ")
+last_name = input("Enter your Last Name: ")
+department = input("Enter your Department Name: ")
+student_id = input("Enter your Student ID: ")
+
+# Formatting student name
+student_name = f"{last_name.upper()}, {first_name.capitalize()}"
+
+# Generating ID card
+print("\nID CARD DETAILS")
+print("*****************")
+print(f"Name: {student_name}")
+print(f"Department: {department}")
+print(f"Student ID: {student_id}")
+print("*****************")
+
+
+3). Write a program to find the cube of 36
+num = 36
+cube = num ** 3
+
+print(f"The cube of {num} is {cube}")
+
+
+Apply all the types of Arithmetic Operators on the following Variables:
+    a = 40
+    b = 5
+a = 40
+b = 5
+
+# Addition
+print("a + b =", a + b)  # Output: 45
+
+# Subtraction
+print("a - b =", a - b)  # Output: 35
+
+# Multiplication
+print("a * b =", a * b)  # Output: 200
+
+# Division
+print("a / b =", a / b)  # Output: 8.0 (note that this is a float value)
+
+# Integer Division
+print("a // b =", a // b)  # Output: 8 (this is an integer value, rounded down)
+
+# Modulo
+print("a % b =", a % b)  # Output: 0 (remainder of 40 / 5 is 0)
+
+# Exponentiation
+print("a ** b =", a ** b)  # Output: 1024000000
+
+
+4). x = 56
+y = "44"
+   
+write a program to display sum of both the variables. 
+and the output of the program should be 100
+
+x = 56
+y = "44"
+
+# Converting y to an integer using the int() function
+y_int = int(y)
+
+# Adding x and y_int
+sum = x + y_int
+
+# Checking if the sum is equal to 100
+if sum == 100:
+    print("The sum of x and y is equal to 100")
+else:
+    print("The sum of x and y is not equal to 100")
+
+# Printing the sum
+print("Sum:", sum)
 
