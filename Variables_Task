@@ -1,0 +1,6 @@
+#write a program to find the area of a circle, take the input from the user for the radius
+radius = int(input("Enter the radius of circle: "))
+area_of_circle = 3.14*(radius**2)
+print("The area of circle is", area_of_circle)
+
+
